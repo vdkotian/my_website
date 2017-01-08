@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = "/home/vinay/workspace/my_portfolio/my_website/mysite/static"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")#"/home/vinay/workspace/my_portfolio/my_website/mysite/static"
 
 STATICFILES_DIRS = [
     #'/home/vinay/workspace/my_portfolio/my_website/mysite/portfolio/static',
